@@ -1,0 +1,11 @@
+# Obtener minters y owners
+query{
+  generativeToken(id:13745){
+    entireCollection{
+      minter{
+        id
+      }
+      owner{ id}
+    }
+  }
+}
