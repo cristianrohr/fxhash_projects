@@ -9,3 +9,20 @@ query{
     }
   }
 }
+
+https://studio.apollographql.com/sandbox/explorer
+
+query{
+  generativeToken(id:13745){
+    entireCollection{
+      
+      minter{
+        id
+      }
+      owner{ id}
+      rarity
+      features
+      name
+    }
+  }
+}
